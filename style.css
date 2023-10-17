@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +9,7 @@
 
 body{
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -61,6 +65,8 @@ section{
     background-color: #f3d5b5;
 }
 
+
+
 article{
     margin-top: 20px;
     padding: 10px;
@@ -86,3 +92,156 @@ padding: 10px;
     }
     
 }*/
+
+article h2{
+text-align: center;
+margin: 10px;
+/* border: dotted #a47148; */
+}
+.articulo-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tarjeta{
+    border: 1px solid   #583101;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: #925913 1px 1px 10px;
+    margin: 15px;
+}
+
+.tarjeta img{
+    width: 150px;
+    height: 280;
+ 
+}
+
+.cuerpo-tarjeta{
+    text-align: center;
+}
+
+.cuerpo-tarjeta p{
+    margin: 10px;
+}
+
+.tarjeta div{
+    padding: 15px;
+}
+
+.descripcion{
+    text-align: center;
+    height: 130px;
+}
+
+.precio{
+    text-align: center;
+}
+
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #583101;
+    background-color: #583101;
+    color: white;
+    font-size: 20px;
+}
+
+.tarjeta button{
+    margin: 10px;
+    padding: 8px;
+    background-color: #925913;
+    color: white;
+    font-size: 25px;
+    border: 1px solid #925913;
+    border-radius: 10px;
+    
+}
+
+.pie-tarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contendor-seccion-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-img{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.seccion-img img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: #925913 1px 1px 10px;
+}
+
+
+form{
+    background-color: #eacf9e;
+    border-radius: 20px;
+    box-shadow: #925913 1px 1px 10px;
+    margin-top: 20px;                  
+    margin-bottom: 20px;                
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.input-text{
+    background-color: #ffedd8;
+}
+
+label{
+    font-size:18px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+
+    margin-top: 15px;   
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #582f0e;
+    
+    
+}
+
+.button:hover{
+    
+    background-color: #7f4f24;
+    
+}
+
+.contenedor-forms{
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacionimg{
+    display: flex;
+    margin: 15px;
+}
