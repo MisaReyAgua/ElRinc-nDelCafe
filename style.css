@@ -107,7 +107,7 @@ margin: 10px;
 
 .tarjeta{
     border: 1px solid   #583101;
-    width: 450px;
+    width: 350px;
     border-radius: 5px;
     box-shadow: #925913 1px 1px 10px;
     margin: 15px;
@@ -241,7 +241,43 @@ label{
     justify-content: center;
 }
 
-.ubicacionimg{
-    display: flex;
-    margin: 15px;
+
+/* @media: palabra reservada
+screen: tipo
+and: operador (and.or,not)
+max-width: breakpoint
+
+@media screen and (max-width: 767px) 
+1024 px tableta
+767 px para celular
+*/
+
+@media screen and (max-width:1024px) {
+    /* tableta */
+    .tarjeta{
+        width: 350px;
+    }
+
+    .tarjeta img{
+        width: 240px;
+    }
+
+    header{
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+    /* celular */
+    .tarjeta{
+        width: 300px;
+    }
+
+    .tarjeta img{
+        width: 200px;
+    }
+    
+    header{
+        flex-flow: column;
+    }
 }
